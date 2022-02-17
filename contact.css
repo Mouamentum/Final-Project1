@@ -1,0 +1,59 @@
+body {font-family: 'Russo One', sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #112D27;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0E1B51;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Russo One', sans-serif;
+    padding: 10px 10px;
+}
+
+h1{
+    text-align: center;
+    
+
+}
+
+p, a{
+    font-family: 'Russo One', sans-serif;
+}
+
+#myVideo{
+    position: fixed;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height:100%;
+}
+
+.container {
+    position:fixed;
+    bottom:0;
+    background: rgba(0, 0, 0, 0.5);
+    color:#FEFCFE;
+    width: 100%;
+    padding:10px;
+
+}

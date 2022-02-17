@@ -1,0 +1,84 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Russo One', sans-serif;
+}
+
+
+p, a{
+    font-family: 'Russo One', sans-serif;
+}
+
+h1{
+    text-align: center;
+
+}
+
+
+body {
+    background-image: url("./img/FAC\ background.png");
+   
+}
+
+
+ul{
+    float:right;
+
+
+    
+}
+
+li{
+    display: inline;
+    margin: 20px 20px;
+
+
+}
+
+li:hover{
+    background-color: aliceblue;
+}
+
+a{
+    text-decoration:none;
+    color: inherit;
+    padding: 25px;
+
+}
+
+
+.fac-group{
+    width: 1200px;
+    height: 900px;
+    border-radius: 50%;
+}
+
+.fac-b{
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+    display: block;
+    border-radius: 50%;
+    padding-bottom: 50px;
+
+}
+    
+
+.logo {
+
+float: left;
+}
+
+.footer{
+position:fixed;
+left:0;
+bottom:0;
+width:100%;
+background-color: #4F5066;
+color:white;
+text-align: center;
+}
+
+.Event{
+    width:auto;
+    height: auto;
+    border-radius: 50%;
+}
